@@ -91,7 +91,7 @@ while not game_ends:
         if letter == user_entry:
             display[position] = letter
 
-    print(display)
+    print(f"{' '.join(display)}")
 
 
     if user_entry not in chosen_word:
